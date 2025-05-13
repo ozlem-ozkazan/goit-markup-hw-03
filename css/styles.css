@@ -1,0 +1,124 @@
+:root {
+  --primary-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em; /* 2% */
+  color: #2e2f42; /*navy blue*/
+}
+
+nav a {
+  color: #2e2f42;
+}
+
+nav a:hover {
+  color: #404bbf;
+}
+
+main p {
+  color: #434455;
+}
+
+h1 {
+  font-size: 56px;
+  font-weight: bold;
+  line-height: 60px;
+  letter-spacing: 0.02em; /* 2% */
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: bold;
+  line-height: 40px;
+  letter-spacing: 0.02em; /* 2% */
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: medium;
+  line-height: 24px;
+  letter-spacing: 0.02em; /* 2% */
+}
+
+address a {
+  color: #434455;
+  text-decoration: none;
+  font-style: normal;
+}
+
+address a:hover {
+  color: #404bbf;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  font-family: var(--secondary-font);
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0.03em; /* 3% */
+  line-height: 21px;
+  text-decoration: none;
+}
+
+.logo-start {
+  color: #4d5ae5;
+}
+
+.logo-end {
+  color: #2e2f42;
+}
+
+.logo-end-footer {
+  color: #f4f4fd;
+}
+
+.section-our-service {
+  background-color: #2e2f42;
+  color: white;
+  text-align: center;
+}
+
+.service-button {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em; /* 4% */
+  background-color: #4d5ae5;
+  color: white;
+}
+
+.service-button:hover,
+.service-button:focus {
+  background-color: #404bbf;
+  cursor: pointer;
+}
+
+.section-our-team {
+  background-color: #f4f4fd;
+}
+
+.portrait {
+  background-color: white;
+  width: 264px;
+  height: 380px;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+footer {
+  background-color: #2e2f42;
+  color: #f4f4fd;
+}
